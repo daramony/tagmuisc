@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B7B1EC7163A3BB3009D05F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7B1EC6163A3BB3009D05F9 /* UIKit.framework */; };
+		2B7B1EC9163A3BB3009D05F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7B1EC8163A3BB3009D05F9 /* Foundation.framework */; };
+		2B7B1ECB163A3BB3009D05F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7B1ECA163A3BB3009D05F9 /* CoreGraphics.framework */; };
+		2B7B1ED1163A3BB3009D05F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B7B1ECF163A3BB3009D05F9 /* InfoPlist.strings */; };
+		2B7B1ED3163A3BB3009D05F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7B1ED2163A3BB3009D05F9 /* main.m */; };
+		2B7B1ED7163A3BB3009D05F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7B1ED6163A3BB3009D05F9 /* AppDelegate.m */; };
+		2B7B1EDA163A3BB3009D05F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7B1ED9163A3BB3009D05F9 /* ViewController.m */; };
+		2B7B1EDD163A3BB4009D05F9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7B1EDB163A3BB4009D05F9 /* ViewController.xib */; };
+		2B7B1EE5163A3BB4009D05F9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7B1EE4163A3BB4009D05F9 /* SenTestingKit.framework */; };
+		2B7B1EE6163A3BB4009D05F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7B1EC6163A3BB3009D05F9 /* UIKit.framework */; };
+		2B7B1EE7163A3BB4009D05F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7B1EC8163A3BB3009D05F9 /* Foundation.framework */; };
+		2B7B1EEF163A3BB4009D05F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B7B1EED163A3BB4009D05F9 /* InfoPlist.strings */; };
+		2B7B1EF2163A3BB4009D05F9 /* tagmuiscTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7B1EF1163A3BB4009D05F9 /* tagmuiscTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B7B1EE8163A3BB4009D05F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B7B1EB9163A3BB3009D05F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7B1EC1163A3BB3009D05F9;
+			remoteInfo = tagmuisc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B7B1EC2163A3BB3009D05F9 /* tagmuisc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tagmuisc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7B1EC6163A3BB3009D05F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B7B1EC8163A3BB3009D05F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B7B1ECA163A3BB3009D05F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B7B1ECE163A3BB3009D05F9 /* tagmuisc-Info.plist */ = {isa = PBXFileReference; path = "tagmuisc-Info.plist"; sourceTree = "<group>"; };
+		2B7B1ED0163A3BB3009D05F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B7B1ED2163A3BB3009D05F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B7B1ED4163A3BB3009D05F9 /* tagmuisc-Prefix.pch */ = {isa = PBXFileReference; path = "tagmuisc-Prefix.pch"; sourceTree = "<group>"; };
+		2B7B1ED5163A3BB3009D05F9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B7B1ED6163A3BB3009D05F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B7B1ED8163A3BB3009D05F9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		2B7B1ED9163A3BB3009D05F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B7B1EDC163A3BB4009D05F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		2B7B1EE3163A3BB4009D05F9 /* tagmuiscTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tagmuiscTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7B1EE4163A3BB4009D05F9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2B7B1EEC163A3BB4009D05F9 /* tagmuiscTests-Info.plist */ = {isa = PBXFileReference; path = "tagmuiscTests-Info.plist"; sourceTree = "<group>"; };
+		2B7B1EEE163A3BB4009D05F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B7B1EF0163A3BB4009D05F9 /* tagmuiscTests.h */ = {isa = PBXFileReference; path = tagmuiscTests.h; sourceTree = "<group>"; };
+		2B7B1EF1163A3BB4009D05F9 /* tagmuiscTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tagmuiscTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B7B1EBF163A3BB3009D05F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7B1EC7163A3BB3009D05F9 /* UIKit.framework in Frameworks */,
+				2B7B1EC9163A3BB3009D05F9 /* Foundation.framework in Frameworks */,
+				2B7B1ECB163A3BB3009D05F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7B1EDF163A3BB4009D05F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7B1EE5163A3BB4009D05F9 /* SenTestingKit.framework in Frameworks */,
+				2B7B1EE6163A3BB4009D05F9 /* UIKit.framework in Frameworks */,
+				2B7B1EE7163A3BB4009D05F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B7B1EB7163A3BB3009D05F9 = {
+			isa = PBXGroup;
+			children = (
+				2B7B1ECC163A3BB3009D05F9 /* tagmuisc */,
+				2B7B1EEA163A3BB4009D05F9 /* tagmuiscTests */,
+				2B7B1EC5163A3BB3009D05F9 /* Frameworks */,
+				2B7B1EC3163A3BB3009D05F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B7B1EC3163A3BB3009D05F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B7B1EC2163A3BB3009D05F9 /* tagmuisc.app */,
+				2B7B1EE3163A3BB4009D05F9 /* tagmuiscTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B7B1EC5163A3BB3009D05F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B7B1EC6163A3BB3009D05F9 /* UIKit.framework */,
+				2B7B1EC8163A3BB3009D05F9 /* Foundation.framework */,
+				2B7B1ECA163A3BB3009D05F9 /* CoreGraphics.framework */,
+				2B7B1EE4163A3BB4009D05F9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B7B1ECC163A3BB3009D05F9 /* tagmuisc */ = {
+			isa = PBXGroup;
+			children = (
+				2B7B1ED5163A3BB3009D05F9 /* AppDelegate.h */,
+				2B7B1ED6163A3BB3009D05F9 /* AppDelegate.m */,
+				2B7B1ED8163A3BB3009D05F9 /* ViewController.h */,
+				2B7B1ED9163A3BB3009D05F9 /* ViewController.m */,
+				2B7B1EDB163A3BB4009D05F9 /* ViewController.xib */,
+				2B7B1ECD163A3BB3009D05F9 /* Supporting Files */,
+			);
+			path = tagmuisc;
+			sourceTree = "<group>";
+		};
+		2B7B1ECD163A3BB3009D05F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B7B1ECE163A3BB3009D05F9 /* tagmuisc-Info.plist */,
+				2B7B1ECF163A3BB3009D05F9 /* InfoPlist.strings */,
+				2B7B1ED2163A3BB3009D05F9 /* main.m */,
+				2B7B1ED4163A3BB3009D05F9 /* tagmuisc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B7B1EEA163A3BB4009D05F9 /* tagmuiscTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B7B1EF0163A3BB4009D05F9 /* tagmuiscTests.h */,
+				2B7B1EF1163A3BB4009D05F9 /* tagmuiscTests.m */,
+				2B7B1EEB163A3BB4009D05F9 /* Supporting Files */,
+			);
+			path = tagmuiscTests;
+			sourceTree = "<group>";
+		};
+		2B7B1EEB163A3BB4009D05F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B7B1EEC163A3BB4009D05F9 /* tagmuiscTests-Info.plist */,
+				2B7B1EED163A3BB4009D05F9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B7B1EC1163A3BB3009D05F9 /* tagmuisc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7B1EF5163A3BB4009D05F9 /* Build configuration list for PBXNativeTarget "tagmuisc" */;
+			buildPhases = (
+				2B7B1EBE163A3BB3009D05F9 /* Sources */,
+				2B7B1EBF163A3BB3009D05F9 /* Frameworks */,
+				2B7B1EC0163A3BB3009D05F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tagmuisc;
+			productName = tagmuisc;
+			productReference = 2B7B1EC2163A3BB3009D05F9 /* tagmuisc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B7B1EE2163A3BB4009D05F9 /* tagmuiscTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7B1EF8163A3BB4009D05F9 /* Build configuration list for PBXNativeTarget "tagmuiscTests" */;
+			buildPhases = (
+				2B7B1EDE163A3BB4009D05F9 /* Sources */,
+				2B7B1EDF163A3BB4009D05F9 /* Frameworks */,
+				2B7B1EE0163A3BB4009D05F9 /* Resources */,
+				2B7B1EE1163A3BB4009D05F9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B7B1EE9163A3BB4009D05F9 /* PBXTargetDependency */,
+			);
+			name = tagmuiscTests;
+			productName = tagmuiscTests;
+			productReference = 2B7B1EE3163A3BB4009D05F9 /* tagmuiscTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B7B1EB9163A3BB3009D05F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2B7B1EBC163A3BB3009D05F9 /* Build configuration list for PBXProject "tagmuisc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B7B1EB7163A3BB3009D05F9;
+			productRefGroup = 2B7B1EC3163A3BB3009D05F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B7B1EC1163A3BB3009D05F9 /* tagmuisc */,
+				2B7B1EE2163A3BB4009D05F9 /* tagmuiscTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B7B1EC0163A3BB3009D05F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7B1ED1163A3BB3009D05F9 /* InfoPlist.strings in Resources */,
+				2B7B1EDD163A3BB4009D05F9 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7B1EE0163A3BB4009D05F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7B1EEF163A3BB4009D05F9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B7B1EE1163A3BB4009D05F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B7B1EBE163A3BB3009D05F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7B1ED3163A3BB3009D05F9 /* main.m in Sources */,
+				2B7B1ED7163A3BB3009D05F9 /* AppDelegate.m in Sources */,
+				2B7B1EDA163A3BB3009D05F9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7B1EDE163A3BB4009D05F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7B1EF2163A3BB4009D05F9 /* tagmuiscTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B7B1EE9163A3BB4009D05F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7B1EC1163A3BB3009D05F9 /* tagmuisc */;
+			targetProxy = 2B7B1EE8163A3BB4009D05F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B7B1ECF163A3BB3009D05F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B7B1ED0163A3BB3009D05F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B7B1EDB163A3BB4009D05F9 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B7B1EDC163A3BB4009D05F9 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		2B7B1EED163A3BB4009D05F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B7B1EEE163A3BB4009D05F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B7B1EF3163A3BB4009D05F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B7B1EF4163A3BB4009D05F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B7B1EF6163A3BB4009D05F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tagmuisc/tagmuisc-Prefix.pch";
+				INFOPLIST_FILE = "tagmuisc/tagmuisc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B7B1EF7163A3BB4009D05F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tagmuisc/tagmuisc-Prefix.pch";
+				INFOPLIST_FILE = "tagmuisc/tagmuisc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2B7B1EF9163A3BB4009D05F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tagmuisc.app/tagmuisc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tagmuisc/tagmuisc-Prefix.pch";
+				INFOPLIST_FILE = "tagmuiscTests/tagmuiscTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2B7B1EFA163A3BB4009D05F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tagmuisc.app/tagmuisc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tagmuisc/tagmuisc-Prefix.pch";
+				INFOPLIST_FILE = "tagmuiscTests/tagmuiscTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B7B1EBC163A3BB3009D05F9 /* Build configuration list for PBXProject "tagmuisc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7B1EF3163A3BB4009D05F9 /* Debug */,
+				2B7B1EF4163A3BB4009D05F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B7B1EF5163A3BB4009D05F9 /* Build configuration list for PBXNativeTarget "tagmuisc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7B1EF6163A3BB4009D05F9 /* Debug */,
+				2B7B1EF7163A3BB4009D05F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B7B1EF8163A3BB4009D05F9 /* Build configuration list for PBXNativeTarget "tagmuiscTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7B1EF9163A3BB4009D05F9 /* Debug */,
+				2B7B1EFA163A3BB4009D05F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B7B1EB9163A3BB3009D05F9 /* Project object */;
+}
